@@ -2,7 +2,7 @@ import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: REACT_APP_FIREBASE_KEY,
+  apiKey: "AIzaSyCUZ4vBLiPKWLN--JLuB_DCKCJbQipHQ_w",
   authDomain: "fir-auth-d1920.firebaseapp.com",
   projectId: "fir-auth-d1920",
   storageBucket: "fir-auth-d1920.appspot.com",
@@ -12,4 +12,5 @@ const firebaseConfig = {
 
 const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
+
 export default app
